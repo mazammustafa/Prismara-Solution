@@ -1,0 +1,8 @@
+.content .content-wrapper{
+     display: flex;
+     align-items: center;
+}
+
+.content .content-wrapper .about-img{
+    margin-left: -65px;
+}

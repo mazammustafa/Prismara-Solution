@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #23232F;
+  --secondary-color: #741012;
+  --secondary-alt-color: #AC8D44;
+  --white: #ffffff
+}
+
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  /* border: 2px solid rebeccapurple; */
+}
+
+.secondary-alt-color{
+  color: var(--secondary-alt-color);
+}
+
+.secondary-color{
+  color: var(--secondary-color);
+}
+
+.btn-primary {
+  padding: 18px 38px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  color: var(--white);
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background: var(--secondary-alt-color);
+  border: 2px solid var(--secondary-alt-color);
+}
+
+.btn-secondary {
+  padding: 18px 38px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-alt-color);
+  border: 2px solid var(--secondary-alt-color);
+  color: var(--white);
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+.main-heading{
+  font-family: 'Nexa';
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 130%;
+  /* margin: -15px 0; */
+}
+
+.sub-text{
+  font-family: 'Nexa' ;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.sub-text-alt{
+  font-family: 'Nexa';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 7px;
+}
+
+.text{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 190%;
+  margin-top: 20px;
+}
+
+.text span{
+  font-weight: 700;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 35px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+
+

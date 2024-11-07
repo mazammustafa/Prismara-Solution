@@ -1,0 +1,125 @@
+.footer-wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 150px;
+}
+
+.footer-col-01 .contact-number-details {
+    display: flex;
+    align-items:center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.footer-col-01 .contact-number-details svg {
+    background: #fff;
+    font-size: 30px;
+    padding: 8px;
+    color: #37435B;
+    border-radius: 50% !important;
+}
+
+.footer-col-01 .footer-social-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.footer-col-01 .contact-number-details :is(p , a){
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-col-01 .socials-icons svg {
+    background: transparent;
+    font-size: 30px;
+    padding: 12px;
+    color: #FFFFFF;
+    border-radius: 50% !important;
+    border: 1px solid #fff !important;
+    width: 30px;
+    margin-right: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.footer-col-01 .socials-icons svg:hover {
+    background: #37435B;
+    font-size: 30px;
+    padding: 12px;
+    color: #FFFFFF;
+    border-radius: 50% !important;
+    border: 1px solid #37435B !important;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.footer-col-02 .footer-navigation .navigate,.footer-col-03 .footer-newsletter .newsletter {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.footer-navigation .nav-menu {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    gap: 20px;
+}
+
+.footer-col-03 .footer-newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    max-width: 324px;
+}
+
+.footer-col-03 .footer-newsletter .text {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer-col-03 .footer-newsletter form {
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 4px 3px 5px 22px;
+}
+
+.footer-col-03 .footer-newsletter form input[type="email"] {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.footer-col-03 .footer-newsletter form button {
+    width: 20%;
+    background: #37435B;
+    color: #fff;
+    border: none;
+    outline: none;
+    height: 47px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.footer .copywrite{
+   border-top: 2px solid #ffffff38 ;
+   padding: 30px 0;
+}
+
+.footer .copywrite p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}

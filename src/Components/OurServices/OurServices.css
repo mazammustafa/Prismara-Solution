@@ -1,0 +1,27 @@
+.content .value-content-wrapper .sub-text-alt {
+    text-align: center !important;
+
+}
+
+.content .services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.content .services .service {
+    max-width: 387px;
+    width: 100%;
+    background-color: #23232F;
+    border-radius: 20px;
+}
+
+.content .services .service .sub-text {
+    color: #ffffff;
+    font-weight: 800;
+    padding: 15px 38px;
+    /* text-align: left !important;  */
+    vertical-align: middle !important;
+}

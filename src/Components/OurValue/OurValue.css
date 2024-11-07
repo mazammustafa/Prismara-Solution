@@ -1,0 +1,15 @@
+.content .value-content-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.content .value-content-wrapper .main-heading,
+.content .value-content-wrapper .sub-text{
+    text-align: center !important;
+}
+
+.ValueWorks-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}

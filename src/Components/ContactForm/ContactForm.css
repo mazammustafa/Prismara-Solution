@@ -1,0 +1,25 @@
+.contact-content-details {
+    max-width: 610px;
+}
+
+.contact-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-content-wrapper .contact-content-details form {
+    margin-top: 35px;
+}
+
+.contact-content-wrapper .contact-content-details form :is(input, textarea) {
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 2px #000000;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
